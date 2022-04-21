@@ -1,0 +1,33 @@
+.loginPage {
+    background-image: url("../../../public/images/loginbackground.png");
+    background-position-y: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginPageLeft {
+    position: absolute;
+    max-width: 500px;
+    min-width: 300px;
+    right: 0;
+    height: 100vh;
+    padding: 0 50px 0 50px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.loginPageTitle {
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 5px 5px 5px #7a7a7a;
+}
+
+.loginPageBottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    mix-blend-mode: difference;
+    font-size: 20px;
+    color: white;
+}
